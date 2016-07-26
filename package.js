@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Code highlighting integrated with the markdown package',
-  version: '1.3.0',
+  version: '1.3.1',
   name: 'leg3ndz:highlight.js',
   git: 'https://github.com/LeG3nDz/meteor-highlight.js'
 });
