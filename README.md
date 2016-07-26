@@ -1,10 +1,14 @@
-simple:highlight.js
+leg3ndz:highlight.js
 ===================
+
+Fork based on https://github.com/stubailo/meteor-highlight.js. This fork remove IE8 test and github style.
+
+For add style, use this : https://github.com/stubailo/meteor-highlight.js/blob/master/github.css
 
 A highlight.js package for Meteor that's integrated with the core `markdown` package and `chuangbo:marked`!
 
 ```
-$ meteor add simple:highlight.js
+$ meteor add leg3ndz:highlight.js
 ```
 
 ### Using standalone
@@ -28,9 +32,3 @@ And the code will automatically be highlighted. Provide a language hint by addin
     var x = function () {};
     ```
     {{/markdown}}
-
-This package works not only with the markdown helper, but with the `Showdown.makeHtml` function in `markdown` called directly as well. This means it also works with `simple:markdown-templating`.
-
-### Adding support for other markdown packages
-
-Please file a pull request on the `markdown-integration.js` file!
